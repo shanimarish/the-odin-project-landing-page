@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.first-section {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+}
+
+#header-left-text {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-left: 70px;
+}
+
+.header-right {
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+.header-right-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-left, .header-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding-bottom: 75px;
+}
+
+.content-left, .content-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-left {
+    align-items: left;
+    margin-left: 20px;
+}
+
+.content-right {
+    align-items: center;
+    margin-right: 20px;
+}
+
+.aespa-img {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 20%;
+    height: 8%;
+    border: 1px #3882F6;
+    border-radius: 10px;
+}
+
+.album-list {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.aespa-album {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.p-second {
+    text-align: center;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.p-third {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.p-fourth {
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+    margin-right: 300px;
+}
